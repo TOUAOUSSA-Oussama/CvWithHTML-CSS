@@ -1,0 +1,133 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.cvContainer {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.entete {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 177, 177);
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item1 {
+    flex-basis: 40%;
+}
+
+.item3 {
+    flex-basis: 40%;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.contentContainer {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.itemContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+}
+
+.nom {
+    font-size: large;
+    font-weight: bold;
+}
+
+.mot {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.img {
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-radius: 30px;
+}
+
+.coteGauche .title {
+    text-align: end;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.coteGauche .sousTitle {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.droite {
+    padding: 5px;
+    font-weight: bolder;
+    color: grey;
+    font-size: larger;
+}
+
+.gauche {
+    padding: 5px;
+    font-weight: bolder;
+    color: rgb(103, 103, 233);
+    font-size: larger;
+}
+
+.separateur {
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.text {
+    text-align: start;
+    padding: 5px;
+    font-size: larger;
+}
+
+.coteDroite .title {
+    text-align: start;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.coteDroite .sousTitle {
+    display: flex;
+    padding: 10px;
+}
+
+.sousContainer {
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
